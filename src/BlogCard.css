@@ -1,0 +1,41 @@
+.blog{
+  
+    box-sizing: border-box;
+    box-shadow: 0 1px 5px #ccc;
+    margin: 16px;
+    padding: 16px;
+    border-radius: 4px;
+    background-color: aqua;
+
+
+  }
+  .App{
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    
+  }
+
+  button{
+    margin-top: 20px;
+    border: none;
+    background-color: blue;
+    padding: 12px 32px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    align-items: center;
+    justify-self: center;
+   
+  }
+  p{
+    margin-top: 10px;
+  }
+
+.row{
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto;
+}
