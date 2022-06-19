@@ -18,7 +18,7 @@ class BlogCards extends React.Component {
     <div className='blog'>
         <h2>{this.props.title}</h2>
         <p> { this.props.description } </p>
-        <p>Like Count = { this.state.likeCount }</p>
+        <p>Like Count <span className='count'>: { this.state.likeCount }</span></p>
         <button onClick={this.onLikeBtn}>Like</button>
     </div>
   )}

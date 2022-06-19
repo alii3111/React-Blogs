@@ -39,3 +39,8 @@
   width: 100%;
   grid-template-columns: auto auto;
 }
+
+.count{
+  font-weight: bold;
+  color: blue;
+}
