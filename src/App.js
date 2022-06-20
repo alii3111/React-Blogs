@@ -46,8 +46,6 @@ onHideBtn = () =>{
 
 }
 
-
-
 render(){
   return (
     <div className='App' >
