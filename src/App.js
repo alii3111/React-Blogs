@@ -65,7 +65,6 @@ render(){
 
       </div>
 
-      <Product />
 
    </div>
   )
