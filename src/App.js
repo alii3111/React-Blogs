@@ -1,6 +1,7 @@
 import BlogCards from './BlogCards';
 import { isArrayEmpty } from './utils';
 import React from 'react'
+import Product from './Product';
 
 class App extends React.Component{
   state = {
@@ -63,8 +64,10 @@ render(){
   this.state.showBlogs ? this.blogCards : null
   
   }
+
       </div>
 
+      <Product />
 
    </div>
   )

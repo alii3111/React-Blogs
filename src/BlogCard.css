@@ -44,3 +44,10 @@
   font-weight: bold;
   color: blue;
 }
+
+@media (max-width: 776px){
+  .row{
+    display: block;
+    width: 100%;
+  }
+}
