@@ -1,7 +1,6 @@
 import BlogCards from './BlogCards';
 import { isArrayEmpty } from './utils';
 import React from 'react'
-import Product from './Product';
 
 class App extends React.Component{
   state = {
